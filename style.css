@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+#visualization-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.bar {
+  margin: 0 2px;
+  background-color: steelblue;
+  width: 20px;
+}
+
+.controls {
+  margin: 20px;
+}
