@@ -1,5 +1,5 @@
 import { bubbleSort, generateArray } from './sorting/bubbleSort.js';
-// import { dijkstra } from './graphs/dijkstra.js';
+import { dijkstra } from './graphs/dijkstra.js';
 import { buildBinaryTree } from './trees/binaryTree.js';
 
 export function sleep(ms) {
@@ -34,12 +34,10 @@ function showTreeControls() {
 function showGraphControls() {
   const controls = document.getElementById('mode-controls');
   controls.innerHTML = `<button id="run-dijkstra-btn">Run Dijkstra</button>`;
-  // Uncomment if dijkstra is imported
-  /*
   document.getElementById('run-dijkstra-btn').onclick = () => {
     dijkstra();
   };
-  */
+  
 }
 
 function switchVisualizer(mode) {
