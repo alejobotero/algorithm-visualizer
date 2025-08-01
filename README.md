@@ -1,3 +1,4 @@
+Link to site: https://alejobotero.github.io/algorithm-visualizer/
 # 🧠 Algorithm Visualizer
 
 A dynamic, interactive web app that visualizes popular algorithms — including **sorting**, **tree traversal**, and **graph pathfinding (Dijkstra's Algorithm)** — using clean animations and modular JavaScript.
